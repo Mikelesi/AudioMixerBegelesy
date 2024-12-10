@@ -58,7 +58,7 @@ The timer indicating the time remaining until the next refresh is displayed in t
 - Credits Label: Displays the credits for the application.
 
 ## Notes
-Ensure that the background.jpg file is present in the same directory as the audiomixer1.0.py file for the background image to be displayed correctly.\
+Ensure that the background.jpg file is present in the same directory as the [AudioMixer1.0.py](AudioMixer1.0.py) file for the background image to be displayed correctly.\
 The application uses the keyboard library to intercept keyboard events at the system level, allowing it to respond to keyboard shortcuts even when it is not the active window.
 
 ## License
