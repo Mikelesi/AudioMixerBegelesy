@@ -47,6 +47,22 @@ You can add or remove audio sessions from favorites using the buttons provided i
 The application will automatically refresh the list of audio sessions and favorites every 60 seconds.\
 The timer indicating the time remaining until the next refresh is displayed in the GUI.
 
+## EXE file
+If you want to create the .exe file starting from the .py file, you can use **pyinstaller**
+
+### Installation
+You can install it via pip:
+```sh
+pip install pyinstaller
+```
+
+### Usage
+To create the .exe file, open the terminal in the directory where the .py file is located, and type:
+```sh
+pyinstaller --noconsole --onefile [filename].py
+```
+where [filename] is the name of the .py file you want to create an .exe from (in our case, AudioMixer1.0.py)
+
 ## GUI Components
 - Session Listbox: Displays the list of active audio sessions and the master volume.
 - Volume Slider: Allows you to adjust the volume of the selected audio session or the master volume.
