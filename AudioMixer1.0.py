@@ -181,13 +181,6 @@ def setup_tray_icon():
 root = tk.Tk()
 root.title("Controllo Mixer Audio di Windows")
 
-# Aggiungi un'immagine di sfondo
-background_image = Image.open("background.jpg")
-background_photo = ImageTk.PhotoImage(background_image)
-background_label = tk.Label(root, image=background_photo)
-background_label.image = background_photo  # Mantieni un riferimento all'immagine
-background_label.place(relwidth=1, relheight=1)
-
 # Frame per il controllo del volume
 frame = ttk.Frame(root, padding="10", style="Custom.TFrame")
 frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
