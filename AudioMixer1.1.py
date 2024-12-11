@@ -207,13 +207,13 @@ refresh_button.grid(row=2, column=0, columnspan=2, padx=5, pady=5, sticky=(tk.W,
 # Input fields to select keys for volume up and down
 volume_up_key_label = ttk.Label(frame, text="Volume Up Key:", style="Custom.TLabel")
 volume_up_key_label.grid(row=3, column=0, sticky=(tk.W))
-volume_up_key = tk.StringVar(value='F18')
+volume_up_key = tk.StringVar(value='f18')
 volume_up_key_menu = ttk.Combobox(frame, textvariable=volume_up_key, values=[chr(i) for i in range(32, 127)], style="Custom.TCombobox")
 volume_up_key_menu.grid(row=3, column=1, sticky=(tk.W, tk.E))
 
 volume_down_key_label = ttk.Label(frame, text="Volume Down Key:", style="Custom.TLabel")
 volume_down_key_label.grid(row=4, column=0, sticky=(tk.W))
-volume_down_key = tk.StringVar(value='F17')
+volume_down_key = tk.StringVar(value='f17')
 volume_down_key_menu = ttk.Combobox(frame, textvariable=volume_down_key, values=[chr(i) for i in range(32, 127)], style="Custom.TCombobox")
 volume_down_key_menu.grid(row=4, column=1, sticky=(tk.W, tk.E))
 
