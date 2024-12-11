@@ -35,6 +35,7 @@ Run the audiomixer1.0.py file:
 python audiomixer1.0.py
 ```
 Or just run the .exe file [AudioMixer1.0.exe](AudioMixer1.0.exe)
+
 The application window will open, displaying the list of active audio sessions and the master volume.
 
 Use the following keyboard shortcuts to control the application:
