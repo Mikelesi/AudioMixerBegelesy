@@ -1,8 +1,8 @@
 # AudioMixerBegelesy
 Audio Mixer for Windows by Mikelesi and JohnBronx01
 
-# Audio Mixer 1.0
-Audio Mixer 1.0 is a Python application that allows you to control the audio volume of different applications on your Windows system.\
+# Audio Mixer
+Audio Mixer is a Python application that allows you to control the audio volume of different applications on your Windows system.\
 It provides a graphical user interface (GUI) to manage audio sessions, adjust volumes, and manage favorite audio sessions.
 
 ## Features
@@ -23,26 +23,25 @@ It provides a graphical user interface (GUI) to manage audio sessions, adjust vo
 - keyboard library
 
 ## Installation
-1) Clone the repository or download the audiomixer1.0.py file.
+1) Clone the repository
 2) Install the required libraries using pip:
 ```sh
 pip install pycaw comtypes pystray pillow keyboard
 ```
 
 ## Usage
-Run the audiomixer1.0.py file:
+Run the *audiomixer1.x.py* file (where *x* stands for the version number of the app):
 ``` sh
-python audiomixer1.0.py
+python audiomixer1.x.py
 ```
-Or just run the .exe file [AudioMixer1.0.exe](AudioMixer1.0.exe)
+Or just run the .exe file.
 
 The application window will open, displaying the list of active audio sessions and the master volume.
 
 Use the following keyboard shortcuts to control the application:
 - Volume Up: F18 (default, can be changed in the GUI)
 - Volume Down: F17 (default, can be changed in the GUI)
-- Cycle Sessions: Tab (default, can be changed in the GUI)
-- Change Favorite Session: F19
+- Cycle Favorites Sessions: F19 (default, can be changed in the GUI)
 
 You can add or remove audio sessions from favorites using the buttons provided in the GUI.
 
@@ -63,7 +62,7 @@ To create the .exe file, open the terminal in the directory where the .py file i
 ```sh
 pyinstaller --noconsole --onefile [filename].py
 ```
-where [filename] is the name of the .py file you want to create an .exe from (in our case, AudioMixer1.0.py)
+where [filename] is the name of the .py file you want to create an .exe from (in our case, AudioMixer1.x.py)
 
 ## GUI Components
 - Session Listbox: Displays the list of active audio sessions and the master volume.
