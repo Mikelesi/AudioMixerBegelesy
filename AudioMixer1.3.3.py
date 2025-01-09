@@ -253,11 +253,11 @@ volume_slider.grid(row=2, column=0, columnspan=11, padx=5, pady=5, sticky=(tk.W,
 scale_frame = ttk.Frame(frame)
 scale_frame.grid(row=3, column=0, columnspan=11, sticky=(tk.W, tk.E))
 
-# Configura le colonne per avere larghezza uniforme
+# Configure the columns of the scale frame
 for i in range(11):
     scale_frame.columnconfigure(i, weight=1)
 
-# Aggiungi le etichette per la scala sotto lo slider
+# Add the scale labels
 for i in range(0, 101, 10):
     label = ttk.Label(scale_frame, text=str(i))
     label.grid(row=0, column=i//10)
