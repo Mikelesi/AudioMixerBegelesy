@@ -41,6 +41,7 @@ The application window will open, displaying the list of active audio sessions a
 Use the following keyboard shortcuts to control the application:
 - Volume Up: F18 (default, can be changed in the GUI)
 - Volume Down: F17 (default, can be changed in the GUI)
+- Cycle Sessions: F20 (defualt, can be changed in the GUI)
 - Cycle Favorites Sessions: F19 (default, can be changed in the GUI)
 
 You can add or remove audio sessions from favorites using the buttons provided in the GUI.
